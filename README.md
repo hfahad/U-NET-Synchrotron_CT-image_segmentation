@@ -12,14 +12,17 @@ To use this code you need to install dependencies by using pip command.
 ```
 pip3 install -r requirements.txt
 ``` 
+
 U-CTSegNet  
 ├── Model training  
-│   ├── Training.py 
-│   ├── U-Net.py
+│   ├── Training.py  
+│   ├── U-Net.py    
 │   └── Loss_functions.py  
 ├── Test Model  
-│   ├── Testing.py    
-    └── Visual.py  
+│   ├── Testing.py  
+│   └── Visual.py    
+└── requirements.txt 
+
 
 ### Command-line interface
 While executable scripts are provided, it's easy to write your own too. Data formats supported are .tiff sequence and hdf5. Example config files are provided in cfg_files/.  
